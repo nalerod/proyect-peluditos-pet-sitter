@@ -515,8 +515,36 @@ footer .contenedor {
 
 }
 
+/******************conocenos************** */
 
+.banner2 {
+  background-image: url(img/equipo.jpg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 
+}
+
+  /* Estilos para el botón */
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4be992; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: 1px solid #4CAF50; /* Borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer;
+   }
+
+/* Cambiar el color del botón cuando se pasa el ratón sobre él */
+.boton:hover {
+    background-color: #f7f43f;
+}
 
 
 
@@ -585,7 +613,7 @@ div.gallery1 {
 
 }
 
-div.gallery1:hover {}
+
 
 div.gallery1 img {
   position: relative;
@@ -605,7 +633,7 @@ div.gallery2 {
 
 }
 
-div.gallery2:hover {}
+
 
 div.gallery2 img {
   position: relative;
